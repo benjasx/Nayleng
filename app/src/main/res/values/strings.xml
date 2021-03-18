@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Nayleng</string>
+    <string name="wlecome">Bienvenido a Nayleng</string>
+    <string name="todo">IMG</string>
+    <string name="btnimg">IMg</string>
+    <string name="tb_classes">Comencemos </string>
+    <string name="tb_cul">Culturas en Nayarit </string>
+    <string name="culimg">IMG</string>
+    <string name="Titulo">Nayarit</string>
+    <string name="Contenido_culturas">
+        Mucha gente que visita Nayarit hoy en día puede rastrear su herencia hasta
+        los grupos indígenas y los inmigrantes españoles, aunque todavía hay pequeños grupos de
+        pueblos indígenas que preservan la cultura y tradiciones de Nayarit. Uno de los grupos más
+        grandes son los huicholes. Adoran a más de 100 dioses y buscan orientación espiritual a través
+        de ceremonias de peyote. Sus aldeas son pequeñas y están ubicadas en las profundidades de las montañas
+        de la Sierra Madre, pero en ciudades más grandes, como Nuevo Vallarta y Tepic, Nayarit, puedes verlos
+        fácilmente con sus ropas tradicionales nayaritas, bordadas con brillantes colores. Muchas galerías y
+        boutiques ofrecen una variedad de su arte:
+        estatuas, pinturas y joyas hechas de cuentas y telas vibrantes, que representan elementos naturales y animales.Ecured(s/f)
+    </string>
+    <string name="Cul_cor">Cora</string>
+    <string name="coracul">
+        La cultura Cora es un grupo étnico fantástico e increíble en todos sus aspectos. Son pobladores
+        y de origen de Nayarit. Que comparten con los wixaricas la majestuosa zona montañosa de la Sierra Madre Occidental,
+        atraviesa los estados de: Jalisco, Zacatecas y Durango. El nombre de este grupo fue tomado a partir de un gran guerrero
+        (Cora) que fundó el reino de Xécora en las altas montañas deificaron a morir y lo identificaron como
+        "Hijo de Dios que está en el cielo y el sol". Quién fue inventor del arco y de la flecha y que descubrió el cultivo del maíz.(Loncón, 2009)
+    </string>
+    <string name="nanana">Náhuatl</string>
+    <string name="NAhualtl">
+        Las lenguas náhuatl se conservan hoy en día en muchas partes del territorio tradicional de
+        los grupos náhuatl; estas regiones están indicadas con color verde en el mapa. Incluyen partes del Distrito
+        Federal (ciudad de México) y de los estados de Durango, México, Guerrero, Michoacán, Morelos, Oaxaca, Puebla,
+        San Luis Potosí, Tabasco, Tlaxcala y Veracruz. Aunque no aparece en este mapa, la variante más sureña de esta familia es
+        el pipil, hablado en la República de El Salvador.
+
+        La familia náhuatl es conocida mundialmente por causa de los aztecas o mexicas, quienes vivieron en México-Tenochtitlán
+        (el centro de la actual ciudad de México) en los siglos XV y XVI, y constituyeron la civilización dominante en Mesoamérica
+        hasta la conquista española. Ellos hablaban una variante del náhuatl (el náhuatl clásico), y por lo tanto, a la familia y aun a
+        las otras variantes individuales a veces se les llama "azteca" o "mexicano". Y, por supuesto, el actual país de México recibió su
+        nombre de la ciudad capital de los aztecas, México [mēxihko].
+        mexico.sil.org(2015)
+    </string>
+    <string name="Como_estan">"E'iny Sa'naa"</string>
+    <string name="Traducc1">¿Como estas?</string>
+</resources>
