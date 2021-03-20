@@ -30,4 +30,12 @@ public class clases extends AppCompatActivity {
         Intent con = new Intent(this,como_estan.class);
         startActivity(con);
     }
+    public void fam(View v){
+        Intent fam = new Intent(this,como_estan.class);
+        startActivity(fam);
+    }
+    public void otros(View v){
+        Intent otros = new Intent(this,como_estan.class);
+        startActivity(otros);
+    }
 }
