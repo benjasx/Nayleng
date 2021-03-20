@@ -7,21 +7,20 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class como_estan extends AppCompatActivity {
-    MediaPlayer au1dio;
-
+public class familia extends AppCompatActivity {
+    MediaPlayer audio;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_como_estan);
-        au1dio=(MediaPlayer)MediaPlayer.create(this,R.raw.au1);
-
+        setContentView(R.layout.activity_familia);
+        audio=(MediaPlayer)MediaPlayer.create(this,R.raw.au11);
     }
+
     public  void next (View view){
-        Intent otro = new Intent(this,ges_nosvemos.class);
+        Intent otro = new Intent(this,fam_abuelo.class);
         startActivity(otro);
     }
     public void play(View v){
-        au1dio.start();
+        audio.start();
     }
 }

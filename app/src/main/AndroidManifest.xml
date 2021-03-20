@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".como_estan"></activity>
+        <activity android:name=".ges_nosvemos"></activity>
+        <activity android:name=".fam_parientes" />
+        <activity android:name=".fam_abuela" />
+        <activity android:name=".fam_abuelo" />
+        <activity android:name=".familia" />
+        <activity android:name=".como_estan" />
         <activity android:name=".culturas" />
         <activity android:name=".clases" />
         <activity android:name=".MainActivity">

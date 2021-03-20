@@ -43,4 +43,20 @@
     </string>
     <string name="Como_estan">"E'iny Sa'naa"</string>
     <string name="Traducc1">¿Cómo estas?</string>
+
+    <string name="fam_papa">"Nyitáata"</string>
+    <string name="Tpapa">Mi papá</string>
+
+    <string name="fam_abuelo">"Nyiyaaxú"</string>
+    <string name="Tabuelo">Mi Abuelo</string>
+
+    <string name="fam_abuela">"Nyiya'kua"</string>
+    <string name="Tabuela">Mi Abuela</string>
+
+    <string name="fam_pariente">"Nyeigua'rá"</string>
+    <string name="Tpariente">Mi Pariente</string>
+
+    <string name="ges_nosvemos">"Nyeigua'rá"</string>
+    <string name="Tnosvemos">Mi Pariente</string>
+
 </resources>
