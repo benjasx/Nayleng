@@ -13,11 +13,11 @@ public class ges_nosvemos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fam_abuelo);
+        setContentView(R.layout.activity_ges_nosvemos);
         mp=(MediaPlayer)MediaPlayer.create(this,R.raw.au5);
     }
     public  void next (View view){
-        Intent otro = new Intent(this,fam_abuela.class);
+        Intent otro = new Intent(this,como_estan.class);
         startActivity(otro);
     }
     public  void volver (View view){

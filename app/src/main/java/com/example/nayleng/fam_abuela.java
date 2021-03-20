@@ -13,7 +13,7 @@ public class fam_abuela extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fam_abuelo);
+        setContentView(R.layout.activity_fam_abuela);
         mp=(MediaPlayer)MediaPlayer.create(this,R.raw.au14);
     }
     public  void next (View view){
