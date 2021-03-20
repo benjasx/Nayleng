@@ -26,4 +26,8 @@ public class clases extends AppCompatActivity {
         Intent otro = new Intent(this,culturas.class);
         startActivity(otro);
     }
+    public void Conversa(View v){
+        Intent con = new Intent(this,como_estan.class);
+        startActivity(con);
+    }
 }
