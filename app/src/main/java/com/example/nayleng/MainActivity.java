@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(otro);
     }
     public  void cultu (View view){
-        Intent otro = new Intent(this,culturas.class);
+        Intent otro = new Intent(this,como_estan.class);
         startActivity(otro);
     }
 }
