@@ -7,18 +7,16 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class fam_parientes extends AppCompatActivity {
-
+public class ot_casa extends AppCompatActivity {
     MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fam_parientes);
-        mp=(MediaPlayer)MediaPlayer.create(this,R.raw.au9);
+        setContentView(R.layout.activity_ot_casa);
+        mp=(MediaPlayer)MediaPlayer.create(this,R.raw.au8);
     }
-
     public  void volver (View view){
-        Intent otro = new Intent(this,fam_mama.class);
+        Intent otro = new Intent(this,otro_come.class);
         startActivity(otro);
     }
     public void play(View v){

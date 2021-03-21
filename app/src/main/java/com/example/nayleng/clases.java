@@ -35,7 +35,7 @@ public class clases extends AppCompatActivity {
         startActivity(fam);
     }
     public void otros(View v){
-        Intent otros = new Intent(this,como_estan.class);
+        Intent otros = new Intent(this,otro_come.class);
         startActivity(otros);
     }
 }

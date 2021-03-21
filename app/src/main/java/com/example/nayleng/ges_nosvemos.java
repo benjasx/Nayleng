@@ -17,14 +17,18 @@ public class ges_nosvemos extends AppCompatActivity {
         mp=(MediaPlayer)MediaPlayer.create(this,R.raw.au5);
     }
     public  void next (View view){
-        Intent otro = new Intent(this,como_estan.class);
+        Intent otro = new Intent(this,ges_comotellamas.class);
         startActivity(otro);
     }
     public  void volver (View view){
-        Intent otro = new Intent(this,como_estan.class);
+        Intent otro = new Intent(this,ges_soyde.class);
         startActivity(otro);
     }
     public void play(View v){
         mp.start();
+    }
+    public  void home (View view){
+        Intent otro = new Intent(this,MainActivity.class);
+        startActivity(otro);
     }
 }

@@ -7,18 +7,21 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class fam_parientes extends AppCompatActivity {
+public class ges_yomellamo extends AppCompatActivity {
 
     MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fam_parientes);
-        mp=(MediaPlayer)MediaPlayer.create(this,R.raw.au9);
+        setContentView(R.layout.activity_ges_yomellamo);
+        mp=(MediaPlayer)MediaPlayer.create(this, R.raw.au3);
     }
-
+    public  void next (View view){
+        Intent otro = new Intent(this,ges_soyde.class);
+        startActivity(otro);
+    }
     public  void volver (View view){
-        Intent otro = new Intent(this,fam_mama.class);
+        Intent otro = new Intent(this,como_estan.class);
         startActivity(otro);
     }
     public void play(View v){

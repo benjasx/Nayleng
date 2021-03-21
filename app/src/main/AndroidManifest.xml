@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ges_nosvemos"></activity>
+        <activity android:name=".ot_casa"></activity>
+        <activity android:name=".otro_come" />
+        <activity android:name=".fam_mama" />
+        <activity android:name=".fam_esposo" />
+        <activity android:name=".ges_comotellamas" />
+        <activity android:name=".ges_yomellamo" />
+        <activity android:name=".ges_soyde" />
+        <activity android:name=".ges_nosvemos" />
         <activity android:name=".fam_parientes" />
         <activity android:name=".fam_abuela" />
         <activity android:name=".fam_abuelo" />

@@ -23,4 +23,8 @@ public class familia extends AppCompatActivity {
     public void play(View v){
         audio.start();
     }
+    public  void home (View view){
+        Intent otro = new Intent(this,MainActivity.class);
+        startActivity(otro);
+    }
 }

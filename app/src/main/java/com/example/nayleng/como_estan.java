@@ -18,10 +18,14 @@ public class como_estan extends AppCompatActivity {
 
     }
     public  void next (View view){
-        Intent otro = new Intent(this,ges_nosvemos.class);
+        Intent otro = new Intent(this,ges_yomellamo.class);
         startActivity(otro);
     }
     public void play(View v){
         au1dio.start();
+    }
+    public  void home (View view){
+        Intent otro = new Intent(this,MainActivity.class);
+        startActivity(otro);
     }
 }

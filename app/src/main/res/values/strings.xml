@@ -61,4 +61,27 @@
 
     <string name="pie">Aprende la lengua Cora</string>
 
+    <string name="ges_soyde">"A nú emáakan</string>
+    <string name="T_soyde">"Yo soy de..."</string>
+
+    <string name="ges_mellamo">"I nya'a ya'nu antyagua"</string>
+    <string name="T_mellamo">"Me llamo"</string>
+
+    <string name="ges_cotella">"E'inyi pántyagua"</string>
+    <string name="T_cotella">"¿Como te llamas?"</string>
+
+    <string name="ges_esposo">"Nyakináa"</string>
+    <string name="T_esposo">"Esposo"</string>
+
+    <string name="ges_mama">"Nyináana"</string>
+    <string name="T_mama">"Mi Mamá"</string>
+
+    <string name="ot_come">"Tyú'kua"</string>
+    <string name="T_come">"Come"</string>
+
+    <string name="ot_casa">"T´chi'i"</string>
+    <string name="T_casa">"Casa"</string>
+
+
+
 </resources>

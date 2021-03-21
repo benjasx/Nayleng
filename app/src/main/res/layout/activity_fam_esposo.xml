@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".como_estan">
-
+    tools:context=".fam_esposo">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="105dp"
@@ -23,7 +22,7 @@
         android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:background="#4CAF50"
-        android:text="@string/Como_estan"
+        android:text="@string/ges_esposo"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
@@ -37,7 +36,7 @@
         android:layout_width="332dp"
         android:layout_height="72dp"
         android:background="#CDDC39"
-        android:text="@string/Traducc1"
+        android:text="@string/T_esposo"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
@@ -63,12 +62,12 @@
         android:id="@+id/imageView3"
         android:layout_width="184dp"
         android:layout_height="177dp"
-        android:background="#8BC34A"
+        android:background="#ffff"
         android:contentDescription="@string/btnimg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/saludo" />
+        app:srcCompat="@drawable/esposo" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -82,6 +81,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_play"
         app:srcCompat="@drawable/next" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="160dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/btnimg"
+        android:onClick="volver"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_play"
+        app:srcCompat="@drawable/atras" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -98,6 +111,5 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@mipmap/ic_home_foreground" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
