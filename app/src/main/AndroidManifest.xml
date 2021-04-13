@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ot_casa"></activity>
+        <activity android:name=".otro_trabajo"></activity>
+        <activity android:name=".otro_basura" />
+        <activity android:name=".otro_silla" />
+        <activity android:name=".fam_gato" />
+        <activity android:name=".fam_perro" />
+        <activity android:name=".fam_cunado" />
+        <activity android:name=".fam_tia" />
+        <activity android:name=".fam_tio" />
+        <activity android:name=".ot_casa" />
         <activity android:name=".otro_come" />
         <activity android:name=".fam_mama" />
         <activity android:name=".fam_esposo" />

@@ -62,7 +62,7 @@
     <string name="pie">Aprende la lengua Cora</string>
 
     <string name="ges_soyde">"A nú emáakan</string>
-    <string name="T_soyde">"Yo soy de..."</string>
+    <string name="T_soyde">"Yo soy de"</string>
 
     <string name="ges_mellamo">"I nya'a ya'nu antyagua"</string>
     <string name="T_mellamo">"Me llamo"</string>
@@ -82,6 +82,29 @@
     <string name="ot_casa">"T´chi'i"</string>
     <string name="T_casa">"Casa"</string>
 
+    <string name="fam_tio">"Nyi nya'u"</string>
+    <string name="T_tio">"Tío"</string>
+
+    <string name="fam_tia">"Nyi tyij"</string>
+    <string name="T_tia">"Tía"</string>
+
+    <string name="fam_cuñado">"Nyiya'ube"</string>
+    <string name="T_cuñado">"Cuñado"</string>
+
+    <string name="fam_perro">"Tsi"</string>
+    <string name="T_perro">"Perro"</string>
+
+    <string name="fam_gato">"mi´tyu"</string>
+    <string name="T_gato">"Gato"</string>
+
+    <string name="otro_silla">"tpuari"</string>
+    <string name="T_silla">"Silla"</string>
+
+    <string name="otro_trabajo">"Muaríra'j"</string>
+    <string name="T_trabajo">"Trabajo"</string>
+
+    <string name="otro_basura">"Xa´tri"</string>
+    <string name="T_basura">"Basura"</string>
 
 
 </resources>

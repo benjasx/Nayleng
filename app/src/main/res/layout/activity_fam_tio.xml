@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ot_casa">
+    tools:context=".fam_tio">
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="105dp"
@@ -22,7 +24,7 @@
         android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:background="#4CAF50"
-        android:text="@string/ot_casa"
+        android:text="@string/fam_tio"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
@@ -36,7 +38,7 @@
         android:layout_width="332dp"
         android:layout_height="72dp"
         android:background="#CDDC39"
-        android:text="@string/T_casa"
+        android:text="@string/T_tio"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
@@ -67,19 +69,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/hhhooo" />
+        app:srcCompat="@drawable/tio" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="160dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="16dp"
-        android:background="#00FFFFFF"
-        android:contentDescription="@string/btnimg"
-        android:onClick="volver"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_play"
-        app:srcCompat="@drawable/atras" />
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="160dp"
@@ -94,6 +85,19 @@
         app:srcCompat="@drawable/next" />
 
     <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="160dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/btnimg"
+        android:onClick="volver"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_play"
+        app:srcCompat="@drawable/atras" />
+    <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="wrap_content"
         android:layout_height="75dp"
@@ -105,6 +109,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@mipmap/ic_home_foreground" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

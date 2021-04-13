@@ -7,20 +7,17 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ot_casa extends AppCompatActivity {
+public class otro_trabajo extends AppCompatActivity {
     MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ot_casa);
-        mp=(MediaPlayer)MediaPlayer.create(this,R.raw.au8);
+        setContentView(R.layout.activity_otro_trabajo);
+        mp=(MediaPlayer)MediaPlayer.create(this,R.raw.s4);
     }
-    public  void next (View view){
-        Intent otro = new Intent(this,otro_silla.class);
-        startActivity(otro);
-    }
+
     public  void volver (View view){
-        Intent otro = new Intent(this,otro_come.class);
+        Intent otro = new Intent(this,otro_trabajo.class);
         startActivity(otro);
     }
     public void play(View v){

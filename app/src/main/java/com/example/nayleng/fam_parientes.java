@@ -27,5 +27,10 @@ public class fam_parientes extends AppCompatActivity {
     public  void home (View view){
         Intent otro = new Intent(this,MainActivity.class);
         startActivity(otro);
+
+    }
+    public  void next (View view){
+        Intent otro = new Intent(this,fam_tio.class);
+        startActivity(otro);
     }
 }

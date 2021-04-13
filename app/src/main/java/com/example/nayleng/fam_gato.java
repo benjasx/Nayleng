@@ -7,27 +7,25 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ot_casa extends AppCompatActivity {
+public class fam_gato extends AppCompatActivity {
     MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ot_casa);
-        mp=(MediaPlayer)MediaPlayer.create(this,R.raw.au8);
+        setContentView(R.layout.activity_fam_gato);
+        mp=(MediaPlayer)MediaPlayer.create(this, R.raw.s9);
     }
-    public  void next (View view){
-        Intent otro = new Intent(this,otro_silla.class);
-        startActivity(otro);
-    }
+
+
     public  void volver (View view){
-        Intent otro = new Intent(this,otro_come.class);
+        Intent otro = new Intent(this,fam_perro.class);
         startActivity(otro);
     }
     public void play(View v){
         mp.start();
     }
-    public  void home (View view){
-        Intent otro = new Intent(this,MainActivity.class);
+    public  void home (View view) {
+        Intent otro = new Intent(this, MainActivity.class);
         startActivity(otro);
     }
 }
